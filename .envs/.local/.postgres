@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=whoco_takehome
+POSTGRES_USER=XKgIwcsDTrYeSzxymznsBjwuJxfalZSF
+POSTGRES_PASSWORD=1r4byHIoTS8wn7zaOaeCOn25akf9gh5iWYBrhsjj8xeQdSP1OUe2dOEKdMQayPlI

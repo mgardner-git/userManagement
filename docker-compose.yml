@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  django:
+    build:
+      context: .
+      dockerfile: ./compose/local/django/Dockerfile
+    image: whoco_takehome_local_django
+    depends_on:
+      - postgres
+    volumes:
+      - .:/app
+    env_file:
+      - ./.envs/.local/.django
+      - ./.envs/.local/.postgres
+    ports:
+      - "8000:8000"
+    command: /start
+
+  postgres:
+    build:
+      context: .
+      dockerfile: compose/local/postgres/Dockerfile
+    image: whoco_takehome_production_postgres
+    env_file:
+      - ./.envs/.local/.postgres
+    ports:
+      - "5432:5432"

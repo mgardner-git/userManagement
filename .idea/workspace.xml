@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b05d2664-1d1c-4417-a53e-da095278b165" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-react/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Instructions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/users/fixtures/initial-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/users/fixtures/initial-data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-react/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-react/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-react/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-react/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-react/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-react/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-react/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements/base.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/base.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="7e24a574-7bb9-4de6-b3dc-2aa4fddf8cff" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1kQeSknJwRXoFOofKH98ZLfplPt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b05d2664-1d1c-4417-a53e-da095278b165" name="Default Changelist" comment="" />
+      <created>1605637245341</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605637245341</updated>
+      <workItem from="1605637246642" duration="2989000" />
+      <workItem from="1605646360346" duration="54000" />
+      <workItem from="1605646477346" duration="14309000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1460" y="346" key="#JavaScript" timestamp="1605652262926">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state x="1460" y="346" key="#JavaScript/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605652262926" />
+    <state x="1208" y="311" key="#Project_Structure" timestamp="1605651916989">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state x="1208" y="311" key="#Project_Structure/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605651916989" />
+    <state x="1432" y="346" key="#TypeScript" timestamp="1605653152545">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state x="1432" y="346" key="#TypeScript/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605653152545" />
+    <state width="3398" height="401" key="GridCell.Tab.0.bottom" timestamp="1605651416744">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="3398" height="401" key="GridCell.Tab.0.bottom/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605651416744" />
+    <state width="3398" height="401" key="GridCell.Tab.0.center" timestamp="1605651416744">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="3398" height="401" key="GridCell.Tab.0.center/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605651416744" />
+    <state width="3398" height="401" key="GridCell.Tab.0.left" timestamp="1605651416744">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="3398" height="401" key="GridCell.Tab.0.left/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605651416744" />
+    <state width="3398" height="401" key="GridCell.Tab.0.right" timestamp="1605651416744">
+      <screen x="0" y="25" width="3440" height="1415" />
+    </state>
+    <state width="3398" height="401" key="GridCell.Tab.0.right/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605651416744" />
+    <state x="405" y="208" key="SettingsEditor" timestamp="1605763622019">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="405" y="208" key="SettingsEditor/0.25.1792.1095@0.25.1792.1095" timestamp="1605763622019" />
+    <state x="777" y="261" key="SettingsEditor/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605650031980" />
+    <state x="740" y="370" width="567" height="614" key="find.popup" timestamp="1605768120031">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="740" y="370" width="567" height="614" key="find.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1605768120031" />
+    <state x="1420" y="471" width="600" height="522" key="find.popup/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605660607475" />
+    <state x="721" y="276" width="670" height="524" key="search.everywhere.popup" timestamp="1605768711879">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="721" y="276" width="670" height="524" key="search.everywhere.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1605768711879" />
+    <state x="1385" y="349" width="670" height="676" key="search.everywhere.popup/861.1465.1792.1095/0.25.3440.1415@0.25.3440.1415" timestamp="1605660935517" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
