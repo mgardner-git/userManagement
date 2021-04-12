@@ -1,0 +1,23 @@
+[
+    {
+      "id" : "0",
+	  "username": "Alice",
+	  "groups" : [0]  
+    },
+    {
+	  "id": "1",
+	  "username": "Bob",
+	  "groups" : [1]
+    },
+    {
+      "id": "2",
+	  "username": "Charlie",
+	  "groups" : []
+	},
+	{
+		"id": "3",
+		"username" : "Douglas",
+		"groups":[]
+
+	}
+ ]

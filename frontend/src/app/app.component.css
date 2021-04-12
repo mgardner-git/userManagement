@@ -1,0 +1,32 @@
+h1
+{
+	color: blue;
+}
+
+#userManagement
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.selector
+{
+	margin-left: 25px;
+}
+
+#usersInGroup h3
+{
+	margin-top: 67px;
+}
+
+#buttons button
+{
+	display: block;	
+}
+
+#buttons
+{
+	padding-top: 200px;
+	padding-bottom: auto;
+}
