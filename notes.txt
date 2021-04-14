@@ -1,7 +1,0 @@
-wasn't able to get the graph.ql and docker stuff running.
-
-made a node express server
-used the following tutorials for info
-https://robkendal.co.uk/blog/how-to-build-a-restful-node-js-api-server-using-json-files
-https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm
-
