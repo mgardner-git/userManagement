@@ -6,6 +6,8 @@ const dataPath = "./data/";
 app.use(function(request, response, next) {
   response.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
   response.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  response.header("Access-Control-Allow-Methods", "PUT,GET,HEAD,POST");
+  
   next();
 });
 
@@ -88,6 +90,92 @@ app.get("/api/usersInGroup", function(request, response) {
 			throw "You must supply  a groupId for this service"
 		}
 		
+	});
+});
+
+/*
+	Expects 2 parameters userId, and groupId.  Removes the given user from the given group.  Throws an error 
+	if either parameter is missing, or if that user is not in that group.
+*/
+app.put("/api/removeUserFromGroup", function(request, response) {
+
+	if (!request.query.groupId) {
+		throw "You must supply a groupId for this service";
+	}
+	if (!request.query.userId) {
+		throw "You must supply a userId for this service";
+	}
+	
+	fs.readFile(dataPath + "allUsers.json", "utf8", (err,data) => {
+		if (err) {
+			throw err;
+		} else {
+			let allUsers = JSON.parse(data);
+			let userFound = false;
+			for (let index = 0; index < allUsers.length; index++) {
+				let checkUser = allUsers[index];
+				if (checkUser.id == request.query.userId) {
+					userFound = true;
+					let groupFound = false;
+					for (let gIndex = 0; gIndex < checkUser.groups.length; gIndex++) {
+						let checkGroup = checkUser.groups[gIndex];
+						if (checkGroup == request.query.groupId) {
+							groupFound = true;
+							checkUser.groups.splice(gIndex,1); //remove this group from this user's groups
+						}
+					}
+					if (!groupFound) {
+						throw "User " + checkUser.username + " does not belong to group " + request.query.groupId;
+					}
+				}
+			}
+			if (!userFound) {
+				throw "User " + request.query.userId + " does not exist.";
+			}
+			fs.writeFile(dataPath + "allUsers.json", JSON.stringify(allUsers), (err) => {
+				if (err) {
+					throw err
+				} else {
+					response.send(JSON.stringify("User " + request.query.userId  + " was removed from group #" + request.query.groupId));
+				}
+			});
+		}
+	});
+});
+
+app.put("/api/addUserToGroup", function(request, response) {
+
+	if (!request.query.groupId) {
+		throw "You must supply a groupId for this service";
+	}
+	if (!request.query.userId) {
+		throw "You must supply a userId for this service";
+	}
+	
+	fs.readFile(dataPath + "allUsers.json", "utf8", (err,data) => {
+		if (err) {
+			throw err;
+		} else {
+			let allUsers = JSON.parse(data);
+			let userFound = false;
+			for (let index = 0; index < allUsers.length; index++) {
+				let checkUser = allUsers[index];
+				if (checkUser.id == request.query.userId) {
+					userFound = true;
+					checkUser.groups.push(request.query.groupId);
+				}
+			}
+			if (!userFound) {
+				throw "User " + request.query.userId + " does not exist.";
+			}
+			fs.writeFile(dataPath + "allUsers.json", JSON.stringify(allUsers), (err) => {
+				if (err) {
+					throw err
+				} else {
+					response.send(JSON.stringify("User " + request.query.userId  + " was added to group #" + request.query.groupId));
+				}
+			});
+		}
 	});
 });
 

@@ -1,11 +1,11 @@
-<h1>WhoCo</h1>
+
 <router-outlet></router-outlet>
 
 <div id = "userManagement">
 		
 	<div class = "selector" id = "allGroups">
 		<h2>Groups</h2>
-		<select [(ngModel)] = "selectedGroup"  size = "14"  >
+		<select [(ngModel)] = "selectedGroup"  size = "14"  (change) = "selectGroup($event)">
 			<option *ngFor = "let group of groups" [ngValue] = "group">
 				{{group.name}}
 			</option>
@@ -13,7 +13,7 @@
 	</div>
 
 	<div class = "selector" id = "allUsers">
-		<h2>Group: {{selectedGroup.name}}</h2>
+		<h2>Group: {{selectedGroup?.name}}</h2>
 		<h3>All Users:</h3>
 		<select [(ngModel)] = "selectedUser" id = "userSelect" size = "12">
 			<option *ngFor = "let user of availableUsers" [ngValue] = "user">
@@ -28,7 +28,7 @@
 	</div>
 
 	<div class = "selector" id = "usersInGroup">
-		<h3>Users in Group {{selectedGroup.name}}: </h3>		
+		<h3>Users in Group {{selectedGroup?.name}}: </h3>		
 		<select id = "usersInGroup" [(ngModel)] = "selectedGUser" size = "12">
 			<option *ngFor = "let gUser of assignedUsers" [ngValue] = "gUser">
 				{{gUser.username}}

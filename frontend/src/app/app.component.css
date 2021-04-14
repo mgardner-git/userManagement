@@ -1,7 +1,4 @@
-h1
-{
-	color: blue;
-}
+
 
 #userManagement
 {
@@ -22,11 +19,21 @@ h1
 
 #buttons button
 {
-	display: block;	
+	display: block;
+	border: 1px solid blue;
+	border-radius: 3px;
+	
 }
 
 #buttons
 {
 	padding-top: 200px;
 	padding-bottom: auto;
+}
+
+#userManagement select
+{
+	background-color: aqua;
+	border: 1px solid blue;
+	min-width: 100px;
 }
